@@ -1,0 +1,13 @@
+{
+  "name": "grpc-clean-arch-api",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node src/infrastructure/grpc/servers/server.js",
+    "dev": "nodemon src/infrastructure/grpc/servers/server.js"
+  },
+  "dependencies": {
+    "@grpc/grpc-js": "^1.10.0",
+    "@grpc/proto-loader": "^0.7.10",
+    "nodemon": "^3.1.14"
+  }
+}
